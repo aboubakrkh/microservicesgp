@@ -5,12 +5,13 @@
         stage('Build') {
             steps {
                 echo 'Building..'
-		sh 'java HelloJenkins '
+		
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
+		sh 'docker-compose -d up '
             }
         }
         stage('Deploy') {
