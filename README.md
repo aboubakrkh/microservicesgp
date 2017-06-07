@@ -1,4 +1,4 @@
-# Cinema to Go - Microservices architecture using Go, Docker and MongoDB
+## Cinema to Go - Microservices architecture using Go, Docker and MongoDB
 
 Overview
 ========
