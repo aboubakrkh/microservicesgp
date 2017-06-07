@@ -6,7 +6,7 @@
             steps {
                 echo 'Building..'
 		echo 'trigger'
-		sh 'docker-compose -d up '	
+		sh 'docker-compose  up -d  '	
             }
         }
         stage('Test') {
