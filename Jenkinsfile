@@ -7,7 +7,7 @@
 
     stage('Build image') {
 
-        app = docker-compose up -d 
+        app = sh 'docker-compose up -d '
 
 
     }
